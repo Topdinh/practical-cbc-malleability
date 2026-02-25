@@ -46,7 +46,8 @@ Authenticating before decryption:
 + Avoids processing corrupted structured data
 Correct composition of primitives is essential for secure system design.
 
-Project Structure
+## Project Structure
+
 practical-cbc-malleability/
 ├── src/cbc_malleability/
 │   ├── core/        # CBC, HMAC, EtM implementation
