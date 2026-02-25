@@ -48,16 +48,14 @@ Correct composition of primitives is essential for secure system design.
 
 Project Structure
 practical-cbc-malleability/
-│
 ├── src/cbc_malleability/
 │   ├── core/        # CBC, HMAC, EtM implementation
 │   ├── attacks/     # Bit-flipping attack logic
-│   └── benchmark/   # (Performance measurement scaffold)
-│
+│   └── benchmark/   # Performance measurement scaffold
 ├── scripts/         # Demonstration scripts
 ├── tests/           # Unit tests
 ├── data/            # Sample keys and packets
-├── pyproject.toml   # Python packaging configuration
+└── pyproject.toml   # Python packaging configuration
 The project follows a proper src layout and can be installed in editable mode.
 
 Running the Demo
