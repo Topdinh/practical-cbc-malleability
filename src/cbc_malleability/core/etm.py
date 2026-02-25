@@ -1,10 +1,9 @@
 from __future__ import annotations
 
-from pathlib import Path
 from typing import Tuple
 
-from core.cbc import encrypt_cbc, decrypt_cbc
-from core.hmac_sha256 import hmac_sha256, hmac_verify_sha256
+from .cbc import encrypt_cbc, decrypt_cbc
+from .hmac_sha256 import hmac_sha256, hmac_verify_sha256
 
 BLOCK = 16
 TAG_LEN = 32  # SHA256 output size
