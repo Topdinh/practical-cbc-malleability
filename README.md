@@ -62,11 +62,11 @@ The project follows a proper src layout and can be installed in editable mode.
 
 Running the Demo
 Install:
-	```bash
+	```
 	python -m pip install -e .
 	```	
 Run Encrypt-then-MAC demo:
-	```bash
+	```
 	python scripts/demo_etm.py
     ```	
 You should see successful encryption and decryption.
