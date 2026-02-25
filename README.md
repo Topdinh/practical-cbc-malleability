@@ -62,11 +62,13 @@ The project follows a proper src layout and can be installed in editable mode.
 
 Running the Demo
 Install:
+	```
 	python -m pip install -e .
-
+	```	
 Run Encrypt-then-MAC demo:
+	```	
 	python scripts/demo_etm.py
-
+    ```	
 You should see successful encryption and decryption.
 To observe tampering detection, modify the packet and re-run decryption.
 
